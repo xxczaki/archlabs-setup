@@ -12,7 +12,7 @@ echo '-----------------------------------'
 sleep 5; aurman --sync --noconfirm yay
 yay --remove --noconfirm archlabs-aurman
 
-# Full system update
+# Full system upgrade
 
 sudo pacman -Syuu --noconfirm
 
