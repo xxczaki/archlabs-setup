@@ -7,9 +7,10 @@ echo 'https://github.com/xxczaki/archlabs-setup'
 echo ''
 echo '-----------------------------------'
 
-# Install yay (aur helper)
+# Remove aurman & install yay (aur helpers)
 
 sleep 5; aurman --sync --noconfirm yay
+yay --remove --noconfirm archlabs-aurman
 
 # Full system update
 
