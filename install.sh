@@ -23,6 +23,7 @@ yay -S --noconfirm curl
 yay -S --noconfirm nodejs
 yay -S --noconfirm bat
 yay -S --noconfirm preload
+yay -S --noconfirm cash-cli
 
 # Fix zsh
 
