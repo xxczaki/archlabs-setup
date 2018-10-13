@@ -37,6 +37,9 @@ chsh -s $(which zsh) && $SHELL --version
 # Install some zsh plugins
 
 yay -S --noconfirm zsh-syntax-highlighting
+yay -S --noconfirm powerline
+yay -S --noconfirm powerline
+yay -S --noconfirm zsh-completions
 
 # Install archfetch
 
