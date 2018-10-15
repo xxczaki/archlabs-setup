@@ -14,7 +14,7 @@ yay --remove --noconfirm archlabs-aurman
 
 # Full system upgrade
 
-sudo pacman -Syuu --noconfirm
+sudo pacman -Syyuu --noconfirm
 
 # Some cool packages
 
