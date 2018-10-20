@@ -23,11 +23,17 @@ yay -S --noconfirm curl
 yay -S --noconfirm nodejs
 yay -S --noconfirm bat
 yay -S --noconfirm preload
-yay -S --noconfirm cash-cli
+yay -S --noconfirm archfetch
 
 # Fix zsh
 
 yay --remove --noconfirm grml-zsh-config
+
+# Install some zsh plugins
+
+yay -S --noconfirm zsh-syntax-highlighting
+yay -S --noconfirm powerline
+yay -S --noconfirm zsh-completions
 
 # Install zsh, oh-my-zsh and change the default shell
 
@@ -35,18 +41,7 @@ yay -S --noconfirm zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s $(which zsh) && $SHELL --version
 
-# Install some zsh plugins
-
-yay -S --noconfirm zsh-syntax-highlighting
-yay -S --noconfirm powerline
-yay -S --noconfirm powerline
-yay -S --noconfirm zsh-completions
-
-# Install archfetch
-
-yay -S --noconfirm archfetch
-
-# End
+## End
 
 echo ''
 echo 'Done! Please reboot your system :)'
