@@ -10,7 +10,7 @@ echo '-----------------------------------'
 # Remove aurman & install yay (aur helpers)
 
 sleep 5; baph --sync --noconfirm yay
-yay --remove --noconfirm archlabs-aurman
+yay --remove --noconfirm baph
 
 # Full system upgrade
 
