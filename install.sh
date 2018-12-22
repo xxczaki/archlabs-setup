@@ -9,7 +9,7 @@ echo '-----------------------------------'
 
 # Remove aurman & install yay (aur helpers)
 
-sleep 5; baph --sync --noconfirm yay
+sleep 5; baph --install --noconfirm yay
 yay --remove --noconfirm baph
 
 # Full system upgrade
