@@ -7,7 +7,7 @@ echo 'https://github.com/xxczaki/archlabs-setup'
 echo ''
 echo '-----------------------------------'
 
-# Remove aurman & install yay (aur helpers)
+# Remove baph & install yay (aur helpers)
 
 sleep 5; baph --install --noconfirm yay
 yay --remove --noconfirm baph
